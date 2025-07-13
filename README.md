@@ -53,39 +53,3 @@ This project demonstrates the implementation of several key features essential f
 *   **Product Catalog**: Management of products with categories, prices, and descriptions.
 *   **Payment Integration**: Basic payment entity modeling and association with orders.
 *   **Subtotal & Total Calculations**: Methods for calculating subtotal and total amounts for orders.
-
-
-
-
-## ⚙️ How to Run the Project
-
-To run this project, you will need a Java Development Kit (JDK) and Maven installed on your machine. The project can be imported into any Java IDE (like Eclipse, IntelliJ IDEA, or VS Code with Java extensions) or built and run directly via the command line.
-
-### Prerequisites
-
-*   Java Development Kit (JDK) 17 or higher.
-*   Maven (for dependency management and build automation).
-
-### Building and Running (via command line)
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/acenelio/workshop-springboot3-jpa.git
-    # Or if using Spring Boot 2 version:
-    # git clone https://github.com/acenelio/workshop-springboot2-jpa.git
-    ```
-2.  **Navigate to the project directory:**
-    ```bash
-    cd workshop-springboot3-jpa # or workshop-springboot2-jpa
-    ```
-3.  **Build the project using Maven:**
-    ```bash
-    mvn clean install
-    ```
-4.  **Run the Spring Boot application:**
-    ```bash
-    mvn spring-boot:run
-    ```
-
-The application will start on `http://localhost:8080` by default. You can access the H2 console at `http://localhost:8080/h2-console` (username `sa`, no password).
-
